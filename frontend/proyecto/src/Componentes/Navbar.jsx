@@ -8,14 +8,14 @@ export function Navbar(){
     return(
         <div className="Navbar">
             <div className="log-img">
-            <Link to=""><img src={logo} alt="logo"/></Link>
+            <Link to="/Inicio"><img src={logo} alt="logo"/></Link>
             <h2 className="titulo">Turiscaribbean</h2>
             </div>
             <nav className="Navigation">
                 <ul>
                     <li><Link to="/Peticiones">Peticiones</Link></li>
                     <li><Link to="/Sitios">Sitios</Link></li>
-                    <li><Link to="/Login">Inicio de sesion</Link></li>
+                    
                 </ul>
                 <div className="group">
                     <svg className="icon" aria-hidden="true" viewBox="0 0 24 24"><g>
